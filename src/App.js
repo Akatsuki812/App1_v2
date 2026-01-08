@@ -1,8 +1,6 @@
 import React from 'react';
-import Button from './class-components';
-function App() {
-  return <Button></Button>
+import { Calculator2 } from './calculator';
+
+export default function App(){
+  return <Calculator2/>
 }
-
-
-export default App;
