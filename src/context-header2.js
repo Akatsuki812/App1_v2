@@ -6,6 +6,7 @@ export default class Header2 extends React.Component {
   render() {
     let [user, setUser] = this.context;
     const headerStyle = {
+      textAlign :'center',
       backgroundColor: "#cee",
       padding: 5,
     };
