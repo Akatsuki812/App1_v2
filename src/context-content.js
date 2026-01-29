@@ -1,5 +1,5 @@
 import React from 'react'
-import {userContext} from '/context'
+import {userContext} from './context'
 
 export default function Content(){
     let user = React.useContext(userContext)
